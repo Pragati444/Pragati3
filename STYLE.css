@@ -1,0 +1,149 @@
+.bg-aqua{
+    background-color: rgb(215, 241, 241);
+    font-family: "Sedan SC", serif;
+}
+
+.pt{
+    font-size: 2em;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.nav{
+    background-color: lightskyblue;
+    overflow: hidden;
+}
+
+.nav a{
+    float: right;
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: burlywood;
+    color: black;
+}
+
+.pic{
+    float: right;
+    padding-left: 30px;
+    height: 11cm;
+    align-items: flex-start;  
+}
+
+.price{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.des ul li{
+    margin-bottom: 20px;
+}
+
+.cta{
+    margin:15px 20px 15px 20px ;
+    padding:8px 70px;
+    border:2px solid rgb(5, 3, 5);
+    border-radius:12px;
+    color:rgb(9, 7, 7);
+    background-color: rgb(234, 141, 84);
+    cursor: pointer;
+}
+
+.cta:hover{
+    background-color: dodgerblue;
+}
+
+.rate{
+    list-style-type: none;
+}
+
+ .rate .Stars{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+ }
+   .Stars label{
+    float: left;
+    font-size: 25px;
+    color: cornflowerblue;
+    margin: 0px 5px;
+   }
+  .Stars label::before{
+    content: '☆';
+    color: rgb(16, 15, 10);
+    background-color: gold;
+    border: 2px solid black;
+  }
+  .Stars input{
+    display: -webkit-inline ;
+  }
+
+  .rate .rat{
+    padding-right:900px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: right;
+  }
+
+  .btn{
+    margin:15px 20px 15px 20px ;
+    padding: 8px 70px;
+    border:2px solid rgb(5, 3, 5);
+    border-radius:12px;
+    color:rgb(9, 7, 7);
+    background-color: rgb(234, 141, 84);
+    cursor: pointer;
+    display: flex;
+    
+  }
+
+  .rate .btn{
+    
+    margin-top: 15px;
+    margin-right: 750px;
+    margin-bottom: 0px; 
+    float: right;
+
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .social{
+    float: right;
+    margin-right: 100px;
+  }
+
+  .social .fab{
+    display: -moz-box;
+  }
+
+  .ig{
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+
+  .fab{
+    font-size: 40px;
+    display: flex;
+  }
+
+  .sup{
+    margin-left: 10px;
+    margin-bottom:8px;
+  }
+
+  .social a:hover{
+    color: darkturquoise;
+  }
